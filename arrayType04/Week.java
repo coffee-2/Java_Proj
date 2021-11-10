@@ -1,0 +1,5 @@
+package arrayType04;
+
+public enum Week {
+	MONDAY,TUESDAY,WENDESDAY,THRSDAY,FRAIDAY,SATURDAY,SUNDAY
+}

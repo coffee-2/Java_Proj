@@ -1,0 +1,32 @@
+package stream_19.inputstream;
+
+import java.util.Scanner;
+
+public class ScannerTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("이름 : ");
+		String name = sc.nextLine();
+		
+		System.out.println("직업 : ");
+		String job = sc.nextLine();
+		
+		System.out.println("나이 : ");
+		int age = sc.nextInt();
+		
+		System.out.println("사각형의 세로 길이");
+		double width = sc.nextDouble();
+		
+		
+		System.out.println("=================");
+		System.out.println("이름 : "+name);
+		System.out.println("직업 : "+job);
+		System.out.println("나이 : "+age);
+		System.out.println(width);
+		
+		sc.close();
+		
+	}/////main
+}/////////class
